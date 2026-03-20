@@ -1,0 +1,35 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Python packaging / test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Generated outputs
+figures/*.tmp
+reports/*.tmp
+
+# Local large or private data files
+data/raw/
